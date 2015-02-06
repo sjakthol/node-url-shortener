@@ -1,0 +1,9 @@
+{
+  "name": "node-url-shortener",
+  "version": "0.0.1",
+  "description": "A simple URL shortener service.",
+  "author": "Sami Jaktholm <sjakthol@outlook.com>",
+  "scripts": {
+    "start": "node main.js"
+  }
+}
