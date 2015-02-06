@@ -61,6 +61,7 @@ Shortener.prototype = {
       var id = this.getAvailableId();
       this.urls[id] = link;
 
+      res.setHeader("Content-Type", "text/plain");
       res.write(id);
       res.end("\n");
     }.bind(this));
